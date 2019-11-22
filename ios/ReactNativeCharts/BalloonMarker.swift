@@ -14,7 +14,7 @@
 
 import Foundation;
 
-import Charts;
+import ChartsZyp;
 
 import SwiftyJSON;
 
