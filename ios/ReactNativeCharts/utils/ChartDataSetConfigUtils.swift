@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Charts
+import ChartsZyp
 import SwiftyJSON
 
 

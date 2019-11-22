@@ -4,7 +4,7 @@
 //
 
 import Foundation
-import Charts
+import ChartsZyp
 import SwiftyJSON
 
 class RNBarLineChartViewBase: RNYAxisChartViewBase {
@@ -219,7 +219,7 @@ class RNBarLineChartViewBase: RNYAxisChartViewBase {
         let scaleX = newVisibleXRange / originalVisibleXRange
         let scaleY = newVisibleYRange / originalVisibleYRange
 
-        // in iOS Charts chart.zoom scaleX: CGFloat, scaleY: CGFloat, xValue: Double, yValue: Double, axis: YAxis.AxisDependency)
+        // in iOS ChartsZyp chart.zoom scaleX: CGFloat, scaleY: CGFloat, xValue: Double, yValue: Double, axis: YAxis.AxisDependency)
         // the scale is absolute scale, it will overwrite touchMatrix scale directly
         // but in android MpAndroidChart, ZoomJob getInstance(viewPortHandler, scaleX, scaleY, xValue, yValue, trans, axis, v)
         // the scale is relative scale, touchMatrix.scaleX = touchMatrix.scaleX * scaleX

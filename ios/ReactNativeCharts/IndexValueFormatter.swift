@@ -8,7 +8,7 @@
 
 import Foundation
 
-import Charts
+import ChartsZyp
 
 open class IndexValueFormatter: NSObject, IValueFormatter {
   

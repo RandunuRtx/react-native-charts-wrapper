@@ -4,7 +4,7 @@
 //
 
 import Foundation
-import Charts
+import ChartsZyp
 
 protocol RNBarLineChartBaseManager {
   var _bridge : RCTBridge? {get}

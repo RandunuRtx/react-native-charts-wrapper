@@ -1,12 +1,12 @@
 //
 //  CustomChartDateFormatter.swift
-//  Charts
+//  ChartsZyp
 //
 //  Created by wuxudong on 2018/10/6.
 //
 
 import Foundation
-import Charts
+import ChartsZyp
 
 open class CustomChartDateFormatter: NSObject, IValueFormatter, IAxisValueFormatter {
     

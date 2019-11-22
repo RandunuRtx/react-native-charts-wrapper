@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import Charts
+import ChartsZyp
 import SwiftyJSON
 
 class HighlightUtils {

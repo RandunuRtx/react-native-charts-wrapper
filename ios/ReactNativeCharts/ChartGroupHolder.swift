@@ -1,13 +1,13 @@
 //
 //  ChartGroupHolder.swift
-//  Charts
+//  ChartsZyp
 //
 //  Created by wuxudong on 2018/10/1.
 //
 
 import Foundation
 
-import Charts
+import ChartsZyp
 
 class ChartHolder {
     open weak var chart:BarLineChartViewBase?
