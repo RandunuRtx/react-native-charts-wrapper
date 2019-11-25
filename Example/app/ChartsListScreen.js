@@ -32,6 +32,7 @@ import GroupBarChartScreen from './GroupBarChartScreen';
 import InfiniteScrollLineChartScreen from './InfiniteScrollLineChartScreen';
 import LinkageChartScreen from './LinkageChartScreen';
 import StockChartScreen from './StockChartScreen';
+import CircularRadarChartScreen from './CircularRadarChartScreen';
 
 
 const styles = StyleSheet.create({
@@ -61,6 +62,11 @@ const styles = StyleSheet.create({
 });
 
 var ExampleRoutes = {
+  CircularRadarChartScreen: {
+    name: 'CircularRadarChart',
+    screen: CircularRadarChartScreen,
+    description: 'Displays a CircularRadarChart',
+  },
   PieChartScreen: {
     name: 'PieChart',
     screen: PieChartScreen,

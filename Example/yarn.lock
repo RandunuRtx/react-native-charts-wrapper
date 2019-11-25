@@ -3724,7 +3724,7 @@ react-is@^16.8.6:
   integrity sha512-BXUMf9sIOPXXZWqr7+c5SeOKJykyVr2u0UDzEf4LNGc6taGkQe1A9DFD07umCIXz45RLr9oAAwZbAJ0Pkknfaw==
 
 "react-native-charts-wrapper@file:..":
-  version "0.5.5"
+  version "0.5.7"
   dependencies:
     prop-types "^15.5.10"
     react "16.8.3"
