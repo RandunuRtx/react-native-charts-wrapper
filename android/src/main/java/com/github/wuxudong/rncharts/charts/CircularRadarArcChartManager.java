@@ -1,6 +1,5 @@
 package com.github.wuxudong.rncharts.charts;
 
-
 import android.util.Log;
 
 import com.facebook.react.bridge.ReadableMap;

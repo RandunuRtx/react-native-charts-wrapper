@@ -5,6 +5,7 @@ import CandleStickChart from './lib/CandleStickChart';
 import LineChart from './lib/LineChart';
 import PieChart from './lib/PieChart';
 import CircularRadarChart from './lib/CircularRadarChart';
+import CircularRadarArcChart from './lib/CircularRadarArcChart';
 import RadarChart from './lib/RadarChart';
 import ScatterChart from './lib/ScatterChart';
 import CombinedChart from './lib/CombinedChart';
@@ -18,6 +19,7 @@ module.exports = {
   PieChart,
   RadarChart,
   CircularRadarChart,
+  CircularRadarArcChart,
   ScatterChart,
   CombinedChart
 };
