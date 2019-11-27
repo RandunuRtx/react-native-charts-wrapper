@@ -97,6 +97,7 @@ class CircularRadarChartScreen extends React.Component {
 
         <View style={styles.container}>
           <CircularRadarChart
+            extraOffsets={{ left: 0, right: 0, top: 5, bottom: 25 }}
             style={styles.chart}
             data={this.state.data}
             xAxis={this.state.xAxis}
@@ -104,15 +105,15 @@ class CircularRadarChartScreen extends React.Component {
             chartDescription={{text: ''}}
             legend={this.state.legend}
             drawWeb={true}
-            webLineWidth={5}
-            webLineWidthInner={5}
-            webAlpha={255}
+            webLineWidth={1}
+            webLineWidthInner={1}
+            webAlpha={128}
             webColor={processColor("red")}
             webColorInner={processColor("green")}
-
-            skipWebLineCount={1}
-            onSelect={this.handleSelect.bind(this)}
-            onChange={(event) => console.log(event.nativeEvent)}
+            skipWebLineCount={0}
+            //onSelect={this.handleSelect.bind(this)}
+            //onChange={event => console.log(event.nativeEvent)}
+            minOffset={0}
           />
         </View>
 
