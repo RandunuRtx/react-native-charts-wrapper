@@ -8,7 +8,7 @@ import UIKit
 @objcMembers
 open class RNCircularRadarArcChartManager: RCTViewManager {
   override open func view() -> UIView! {
-    let ins = RNCircularRadarChartView()
+    let ins = RNCircularRadarArcChartView()
     return ins;
   }
 
